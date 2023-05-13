@@ -18,8 +18,8 @@
               {{website_info.description}}
             </p>
             {% else %}
-            <h1 class="title">Website blog title</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <h1 class="title">BLOGAPP</h1>
+            <p>Discover stories, thinking, and expertise from writers on any topic. </p>
             {% endif %}
           </div>
           <div class="newsletter">
@@ -47,7 +47,7 @@
           </div>
           <div class="post-content">
             <div class="cetagory">
-              <p>Category name</p>
+              <p>{{featured.tag.all.0.name}}</p>
             </div>
             <h1>
               {{featured.title}}
